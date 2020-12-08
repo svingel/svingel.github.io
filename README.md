@@ -6,4 +6,5 @@ Initial project version:
 * simple structure with tables
 * ready to apply CSS when available
 
-Structure based on ![SampleCV](assets/SampleCV.jfif)
+Structure based on the following sample CV:
+![SampleCV](assets/SampleCV.jfif)
