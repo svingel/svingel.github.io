@@ -6,4 +6,4 @@ Initial project version:
 * simple structure with tables
 * ready to apply CSS when available
 
-Structure based on ![SampleCV](assets\SampleCV)
+Structure based on ![SampleCV](assets/SampleCV)
