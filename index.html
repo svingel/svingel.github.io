@@ -2,9 +2,8 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>BT03 HOMEWORK: CV</title>
-		
+		<title>BT04 HOMEWORK: CV</title>
+		<link rel="stylesheet" href="styles/mystyles.css">
 	</head>
 	<body>
 		<header>
@@ -21,9 +20,11 @@
 		</header>
 		
 		<main>
+			<img id="johnsmithimg" src="http://seacoastnh.com/images/stories/johnsmith/Smith1.jpg" alt="Photography of John Smith">
+			
 			<section id="personal" class="content-block">
-				<h3>Personal data</h3>
-				<img src="http://seacoastnh.com/images/stories/johnsmith/Smith1.jpg" alt="Photography of John Smith">
+				<article>
+				<caption>Personal data</caption>
 				<table>
 					<tr>
 						<td>First name, last name</td>
@@ -50,12 +51,14 @@
 						<td>Elsewhere</td>
 					</tr>
 				</table>
+			</article>
 
 			</section>
 
 			<section id="career" class="content-block">
 
-				<article id="education">Education
+				<article id="education" class="career">
+					<caption>Education</caption>
 					<table>
 						<tr>
 							<td>since 2018</td>
@@ -68,7 +71,8 @@
 					</table>
 				</article>
 
-				<article id="research">Research focuses</article>
+				<article id="research" class="career">
+					<caption>Research focuses</caption>
 					<table>
 						<tr>
 							<td>Lorem</td>
@@ -79,8 +83,10 @@
 							<td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id neque itaque veritatis odit aliquam voluptates, vitae debitis, doloremque iste, ipsam quos? Tempore sint dicta laborum laboriosam natus quasi, nobis saepe?</td>
 						</tr>
 					</table>
+				</article>
 
-				<article id="teaching">Teaching
+				<article id="teaching" class="career">
+					<caption>Teaching</caption>
 					<table>
 						<tr>
 							<td>since 2018</td>
@@ -93,7 +99,8 @@
 					</table>
 				</article>
 
-				<article id="publications">Publications
+				<article id="publications" class="career">
+					<div><caption>Publications</caption></div>
 					<table>
 						<tr>
 							<td>2018</td>
@@ -113,7 +120,8 @@
 			</section>
 
 			<section id="interests" class="content-block">
-				<ul><h3>Interests</h3>
+				<caption>Interests</caption>
+				<ul>
 					<li><a href="https://youtu.be/y8uxXknNDTU" target="_blank">instinctive archery</a></li>
 					<li>science-fiction</li>
 					<li>offroad</li>
@@ -121,7 +129,7 @@
 			</section>
 
 			<section id="feedback" class="content-block">
-				<h3>Send me feedback</h3>
+				<div><caption>Send me feedback</caption></div>
 				<form>
 					<div><label>First name</label></div>
 					<div><input name="firstname" type="text" placeholder="Firstname"></div>
@@ -134,12 +142,14 @@
 						<textarea name="description" id="description" cols="30" rows="10">Your message</textarea>
 					</div>
 					<div>
-						<input type="submit" value="Submit">
+						<input id="sendbutton" type="submit" value="Submit">
 					</div>
 				</form>
 			</section>
 
-		    <aside>Navigation
+		    <aside>
+				<nav>
+				<caption>Jump to</caption>
                 <ul>
 					<li><a href="#personal">Personal data</a></li>
 					<li><a href="#education">Education</a></li>
@@ -149,6 +159,7 @@
 					<li><a href="#interests">Intrests</a></li>
 					<li><a href="#feedback">Feedback</a></li>
 				</ul>
+			</nav>
             </aside>
 		</main>
 
