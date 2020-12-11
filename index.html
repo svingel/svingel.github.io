@@ -6,8 +6,10 @@
 		<link rel="stylesheet" href="styles/mystyles.css">
 	</head>
 	<body>
+
 		<header>
 			<h1 id="site-name" class="site-name">Curriculum Vitae</h1>
+			<hr>
 			<nav>
 				<ul>
 					<li><a href="#personal">Personal data</a></li>
@@ -20,11 +22,15 @@
 		</header>
 		
 		<main>
-			<img id="johnsmithimg" src="http://seacoastnh.com/images/stories/johnsmith/Smith1.jpg" alt="Photography of John Smith">
 			
+			<figure>
+				<img src="http://seacoastnh.com/images/stories/johnsmith/Smith1.jpg" alt="Photography of John Smith">
+			</figure>
+			<hr>
+
 			<section id="personal" class="content-block">
 				<article>
-				<caption>Personal data</caption>
+				<h2>Personal data</h2>
 				<table>
 					<tr>
 						<td>First name, last name</td>
@@ -51,14 +57,16 @@
 						<td>Elsewhere</td>
 					</tr>
 				</table>
+
 			</article>
 
 			</section>
+			<hr>
 
 			<section id="career" class="content-block">
 
 				<article id="education" class="career">
-					<caption>Education</caption>
+					<h2>Education</h2>
 					<table>
 						<tr>
 							<td>since 2018</td>
@@ -70,9 +78,10 @@
 						</tr>
 					</table>
 				</article>
+				<hr>
 
 				<article id="research" class="career">
-					<caption>Research focuses</caption>
+					<h2>Research focuses</h2>
 					<table>
 						<tr>
 							<td>Lorem</td>
@@ -84,9 +93,10 @@
 						</tr>
 					</table>
 				</article>
+				<hr>
 
 				<article id="teaching" class="career">
-					<caption>Teaching</caption>
+					<h2>Teaching</h2>
 					<table>
 						<tr>
 							<td>since 2018</td>
@@ -98,9 +108,10 @@
 						</tr>
 					</table>
 				</article>
+				<hr>
 
 				<article id="publications" class="career">
-					<div><caption>Publications</caption></div>
+					<h2>Publications</h2>
 					<table>
 						<tr>
 							<td>2018</td>
@@ -116,11 +127,12 @@
 						</tr>
 					</table>
 				</article>
+				<hr>
 
 			</section>
 
 			<section id="interests" class="content-block">
-				<caption>Interests</caption>
+				<h2>Interests</h2>
 				<ul>
 					<li><a href="https://youtu.be/y8uxXknNDTU" target="_blank">instinctive archery</a></li>
 					<li>science-fiction</li>
@@ -129,27 +141,33 @@
 			</section>
 
 			<section id="feedback" class="content-block">
-				<div><caption>Send me feedback</caption></div>
+
+				<h2>Send me feedback</h2>
+
 				<form>
-					<div><label>First name</label></div>
-					<div><input name="firstname" type="text" placeholder="Firstname"></div>
-					<div><label>Last name</label></div>
-					<div><input name="lastname" type="text" placeholder="Lastname"></div>
+
 					<div>
+						<!-- <div><label>First name</label></div> -->
+						<input name="firstname" type="text" placeholder="Firstname">
+						<!-- <div><label>Last name</label></div> -->
+						<input name="lastname" type="text" placeholder="Lastname">
 						<input type="email" name="email" placeholder="Your email">
 					</div>
+
 					<div>
 						<textarea name="description" id="description" cols="30" rows="10">Your message</textarea>
 					</div>
+
 					<div>
 						<input id="sendbutton" type="submit" value="Submit">
 					</div>
+
 				</form>
 			</section>
 
 		    <aside>
 				<nav>
-				<caption>Jump to</caption>
+				<h3>Jump to</h3>
                 <ul>
 					<li><a href="#personal">Personal data</a></li>
 					<li><a href="#education">Education</a></li>
@@ -164,7 +182,7 @@
 		</main>
 
 		<footer>
-			<h6> All characters appearing in this work are fictitious. Any resemblance to real persons, living or dead, is purely coincidental.</h6>
+			<h5> All characters appearing in this work are fictitious. Any resemblance to real persons, living or dead, is purely coincidental.</h5>
 		</footer>
 	</body>
 </html>
