@@ -3,6 +3,7 @@ body {
     background-image: url(http://seacoastnh.com/images/stories/johnsmith/Smith1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    color: black;
 }
 
 h1 {
@@ -44,6 +45,7 @@ img {
 }
 
 article {
+    font-weight: 700;
     background-color: rgba(109, 130, 142, 0.5) ;
 }
 
@@ -52,26 +54,24 @@ h2 {
     background-color: rgb(16, 29, 47);
 }
 
-#feedback h2 {
-    color: rgb(231, 218, 197);
-    background-color: rgb(116, 82, 67);
-    text-align: center; 
-}
-
-#feedback div {
-    background-color: rgb(116, 82, 67);
+#feedback div, #feedback h2 {
+    background-color: rgba(52, 36, 30, 0.95);
     text-align: center;
 }
 
+#feedback h2 {
+    color: rgb(231, 218, 197);
+}
+
 #sendbutton {
-    background-color: rgb(103, 145, 203);
-    border-color: rgb(5, 9, 15);
-    border-width: 3px;
+    background-color: rgb(47, 84, 137);
+    border-color: whitesmoke;
+    border-width: 6px;
     border-radius: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: x-large;
     font-weight: 600;
-    color: rgb(231, 218, 197);
+    color: whitesmoke;
 }
 footer {
     margin: auto;
