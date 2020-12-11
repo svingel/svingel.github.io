@@ -7,6 +7,7 @@ h1 {
     text-align: center;
     color: rgb(109, 130, 142);
 }
+
 header, aside {
     background-color: rgb(16, 29, 47);
 }
@@ -15,27 +16,32 @@ nav, nav a  {
     color: rgb(231, 218, 197);
 }
 
-#johnsmithimg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+figure {
+    margin: auto;
     border-color: rgb(5, 9, 15);
     border-width: 10px;
     border-radius: 10px;
 }
+img {
+    vertical-align: middle;
+}
 
-.career caption {
+h2 {
     color: rgb(109, 130, 142);
     background-color: rgb(16, 29, 47);
 }
 
+#feedback h2 {
+    color: rgb(231, 218, 197);
+    background-color: rgb(116, 82, 67);
+    text-align: center; 
+}
+
 #feedback div {
     background-color: rgb(116, 82, 67);
+    text-align: center;
 }
-#feedback > caption {
-    font-size: 16;
-    font-weight: 500;
-}
+
 #sendbutton {
     background-color: rgb(103, 145, 203);
     border-color: rgb(5, 9, 15);
@@ -45,4 +51,8 @@ nav, nav a  {
     font-size: x-large;
     font-weight: 600;
     color: rgb(231, 218, 197);
+}
+footer {
+    margin: auto;
+    text-align: center;
 }
