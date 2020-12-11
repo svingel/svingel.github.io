@@ -77,3 +77,7 @@ footer {
     margin: auto;
     text-align: center;
 }
+
+footer h5 {
+    background-color: rgba(231, 218, 197, 0.8);
+}
