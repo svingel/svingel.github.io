@@ -8,7 +8,7 @@ body {
 h1 {
     font-size: 66px;
     text-align: center;
-    color: rgb(109, 130, 142);
+    color: rgb(231, 218, 197);
 }
 
 header, aside {
@@ -17,6 +17,20 @@ header, aside {
 
 nav, nav a  {
     color: rgb(231, 218, 197);
+}
+
+nav a:visited {
+    color: rgb(226, 140, 121);
+}
+
+#interests a:visited {
+    color: rgb(100, 36, 22);
+}
+
+nav a:hover, #interests a:hover {
+    color: rgb(213, 100, 72);
+    font-weight: bolder;
+    font-size: x-large;
 }
 
 figure {
@@ -29,8 +43,12 @@ img {
     vertical-align: middle;
 }
 
+article {
+    background-color: rgba(109, 130, 142, 0.5) ;
+}
+
 h2 {
-    color: rgb(109, 130, 142);
+    color: rgb(231, 218, 197);
     background-color: rgb(16, 29, 47);
 }
 
