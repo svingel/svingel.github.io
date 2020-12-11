@@ -1,5 +1,8 @@
 body {
-    background-color: rgb(231, 218, 197);
+    background-color: rgba(231, 218, 197, 0.3);
+    background-image: url(http://seacoastnh.com/images/stories/johnsmith/Smith1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
